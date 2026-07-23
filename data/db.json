@@ -1,0 +1,825 @@
+{
+  "shipments": [
+    {
+      "id": "SHP-001",
+      "origin_facility_id": "FAC-001",
+      "destination_facility_id": "FAC-003",
+      "material_type": "UF6",
+      "material_description": "Uranium Hexafluoride — Enrichment Feedstock",
+      "quantity_kg": 4500.0,
+      "container_count": 12,
+      "container_type": "48Y Cylinder",
+      "status": "delivered",
+      "priority": "standard",
+      "departure_date": "2025-11-15T08:00:00Z",
+      "estimated_arrival": "2025-11-22T14:00:00Z",
+      "actual_arrival": "2025-11-22T11:30:00Z",
+      "carrier": "Nuclear Transport Solutions",
+      "tracking_number": "NTS-2025-44891",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2025-11-14T16:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-001",
+          "description": "UF6 in 48Y Cylinder",
+          "quantity_kg": 375.0,
+          "enrichment_percent": 4.95,
+          "serial_number": "CYL-48Y-20251115-001"
+        },
+        {
+          "item_id": "ITEM-002",
+          "description": "UF6 in 48Y Cylinder",
+          "quantity_kg": 375.0,
+          "enrichment_percent": 4.95,
+          "serial_number": "CYL-48Y-20251115-002"
+        },
+        {
+          "item_id": "ITEM-003",
+          "description": "UF6 in 48Y Cylinder",
+          "quantity_kg": 375.0,
+          "enrichment_percent": 4.95,
+          "serial_number": "CYL-48Y-20251115-003"
+        }
+      ],
+      "notes": "Routine feedstock delivery. All cylinders passed pre-shipment leak testing."
+    },
+    {
+      "id": "SHP-002",
+      "origin_facility_id": "FAC-002",
+      "destination_facility_id": "FAC-004",
+      "material_type": "MOX",
+      "material_description": "Mixed Oxide Fuel Assemblies",
+      "quantity_kg": 1200.0,
+      "container_count": 4,
+      "container_type": "MPC-32 Canister",
+      "status": "in_transit",
+      "priority": "high",
+      "departure_date": "2026-06-10T06:00:00Z",
+      "estimated_arrival": "2026-06-18T20:00:00Z",
+      "actual_arrival": null,
+      "carrier": "Edlow International",
+      "tracking_number": "EDL-2026-10332",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-06-09T12:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-004",
+          "description": "MOX Fuel Assembly — PWR Type",
+          "quantity_kg": 300.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-PWR-20260610-001"
+        },
+        {
+          "item_id": "ITEM-005",
+          "description": "MOX Fuel Assembly — PWR Type",
+          "quantity_kg": 300.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-PWR-20260610-002"
+        },
+        {
+          "item_id": "ITEM-006",
+          "description": "MOX Fuel Assembly — PWR Type",
+          "quantity_kg": 300.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-PWR-20260610-003"
+        },
+        {
+          "item_id": "ITEM-007",
+          "description": "MOX Fuel Assembly — PWR Type",
+          "quantity_kg": 300.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-PWR-20260610-004"
+        }
+      ],
+      "notes": "Armed escort required per 10 CFR 73. Route approved through NRC regional office."
+    },
+    {
+      "id": "SHP-003",
+      "origin_facility_id": "FAC-005",
+      "destination_facility_id": "FAC-001",
+      "material_type": "LEU",
+      "material_description": "Low-Enriched Uranium Oxide Powder",
+      "quantity_kg": 800.0,
+      "container_count": 8,
+      "container_type": "ES-3100 Cask",
+      "status": "pending_approval",
+      "priority": "standard",
+      "departure_date": null,
+      "estimated_arrival": null,
+      "actual_arrival": null,
+      "carrier": "TBD",
+      "tracking_number": null,
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": false,
+        "iaea_safeguards_reported": false,
+        "security_plan_approved": false,
+        "last_inspection_date": null
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-008",
+          "description": "LEU Oxide Powder — Fuel Fabrication Grade",
+          "quantity_kg": 100.0,
+          "enrichment_percent": 3.5,
+          "serial_number": "LEU-OX-PEND-001"
+        },
+        {
+          "item_id": "ITEM-009",
+          "description": "LEU Oxide Powder — Fuel Fabrication Grade",
+          "quantity_kg": 100.0,
+          "enrichment_percent": 3.5,
+          "serial_number": "LEU-OX-PEND-002"
+        }
+      ],
+      "notes": "Awaiting DOT hazmat certification renewal for carrier. Expected approval within 2 weeks."
+    },
+    {
+      "id": "SHP-004",
+      "origin_facility_id": "FAC-003",
+      "destination_facility_id": "FAC-006",
+      "material_type": "DU",
+      "material_description": "Depleted Uranium Metal Billets",
+      "quantity_kg": 15000.0,
+      "container_count": 30,
+      "container_type": "IP-2 Drum",
+      "status": "delivered",
+      "priority": "low",
+      "departure_date": "2025-09-01T10:00:00Z",
+      "estimated_arrival": "2025-09-05T18:00:00Z",
+      "actual_arrival": "2025-09-05T16:45:00Z",
+      "carrier": "Tri-State Motor Transit",
+      "tracking_number": "TSMT-2025-78234",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": false,
+        "security_plan_approved": true,
+        "last_inspection_date": "2025-08-30T14:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-010",
+          "description": "DU Metal Billet",
+          "quantity_kg": 500.0,
+          "enrichment_percent": 0.2,
+          "serial_number": "DU-BLT-20250901-001"
+        },
+        {
+          "item_id": "ITEM-011",
+          "description": "DU Metal Billet",
+          "quantity_kg": 500.0,
+          "enrichment_percent": 0.2,
+          "serial_number": "DU-BLT-20250901-002"
+        }
+      ],
+      "notes": "DU not subject to IAEA safeguards. Standard industrial transport protocols apply."
+    },
+    {
+      "id": "SHP-005",
+      "origin_facility_id": "FAC-004",
+      "destination_facility_id": "FAC-007",
+      "material_type": "HALEU",
+      "material_description": "High-Assay Low-Enriched Uranium — Advanced Reactor Fuel",
+      "quantity_kg": 150.0,
+      "container_count": 3,
+      "container_type": "DN-30 Cask",
+      "status": "in_transit",
+      "priority": "critical",
+      "departure_date": "2026-06-14T04:00:00Z",
+      "estimated_arrival": "2026-06-20T12:00:00Z",
+      "actual_arrival": null,
+      "carrier": "NAC International",
+      "tracking_number": "NAC-2026-05512",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-06-13T10:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-012",
+          "description": "HALEU Metal — Research Reactor Grade",
+          "quantity_kg": 50.0,
+          "enrichment_percent": 19.75,
+          "serial_number": "HALEU-MTL-20260614-001"
+        },
+        {
+          "item_id": "ITEM-013",
+          "description": "HALEU Metal — Research Reactor Grade",
+          "quantity_kg": 50.0,
+          "enrichment_percent": 19.75,
+          "serial_number": "HALEU-MTL-20260614-002"
+        },
+        {
+          "item_id": "ITEM-014",
+          "description": "HALEU Metal — Research Reactor Grade",
+          "quantity_kg": 50.0,
+          "enrichment_percent": 19.75,
+          "serial_number": "HALEU-MTL-20260614-003"
+        }
+      ],
+      "notes": "HALEU shipment under enhanced security per NRC order EA-22-XXX. GPS tracking active. Armed escort convoy."
+    },
+    {
+      "id": "SHP-006",
+      "origin_facility_id": "FAC-001",
+      "destination_facility_id": "FAC-005",
+      "material_type": "UF6",
+      "material_description": "Uranium Hexafluoride — Tails (Depleted)",
+      "quantity_kg": 8000.0,
+      "container_count": 20,
+      "container_type": "48Y Cylinder",
+      "status": "delivered",
+      "priority": "low",
+      "departure_date": "2025-08-10T07:00:00Z",
+      "estimated_arrival": "2025-08-15T16:00:00Z",
+      "actual_arrival": "2025-08-15T14:20:00Z",
+      "carrier": "Nuclear Transport Solutions",
+      "tracking_number": "NTS-2025-39210",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": false,
+        "security_plan_approved": true,
+        "last_inspection_date": "2025-08-09T11:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-015",
+          "description": "Depleted UF6 in 48Y Cylinder",
+          "quantity_kg": 400.0,
+          "enrichment_percent": 0.3,
+          "serial_number": "CYL-48Y-20250810-001"
+        }
+      ],
+      "notes": "Tails return for long-term storage. Depleted material — reduced regulatory burden."
+    },
+    {
+      "id": "SHP-007",
+      "origin_facility_id": "FAC-006",
+      "destination_facility_id": "FAC-002",
+      "material_type": "LEU",
+      "material_description": "Low-Enriched Uranium Fuel Pellets",
+      "quantity_kg": 2200.0,
+      "container_count": 10,
+      "container_type": "RA-3 Container",
+      "status": "cancelled",
+      "priority": "standard",
+      "departure_date": "2026-04-01T08:00:00Z",
+      "estimated_arrival": "2026-04-07T15:00:00Z",
+      "actual_arrival": null,
+      "carrier": "Edlow International",
+      "tracking_number": "EDL-2026-08770",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": false,
+        "last_inspection_date": "2026-03-28T09:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-016",
+          "description": "LEU Fuel Pellets — BWR Spec",
+          "quantity_kg": 220.0,
+          "enrichment_percent": 4.2,
+          "serial_number": "LEU-PEL-20260401-001"
+        }
+      ],
+      "notes": "Cancelled — destination facility license renewal delayed. Rescheduling for Q3 2026."
+    },
+    {
+      "id": "SHP-008",
+      "origin_facility_id": "FAC-007",
+      "destination_facility_id": "FAC-001",
+      "material_type": "HALEU",
+      "material_description": "High-Assay Low-Enriched Uranium — Returned Research Material",
+      "quantity_kg": 25.0,
+      "container_count": 1,
+      "container_type": "ES-3100 Cask",
+      "status": "pending_approval",
+      "priority": "high",
+      "departure_date": null,
+      "estimated_arrival": null,
+      "actual_arrival": null,
+      "carrier": "TBD",
+      "tracking_number": null,
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": false,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": false,
+        "last_inspection_date": null
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-017",
+          "description": "HALEU Research Sample Return",
+          "quantity_kg": 25.0,
+          "enrichment_percent": 15.0,
+          "serial_number": "HALEU-RSR-PEND-001"
+        }
+      ],
+      "notes": "Return of unused research material. Awaiting security plan approval and carrier assignment."
+    },
+    {
+      "id": "SHP-009",
+      "origin_facility_id": "FAC-002",
+      "destination_facility_id": "FAC-006",
+      "material_type": "LEU",
+      "material_description": "Low-Enriched Uranium Oxide — Reload Batch",
+      "quantity_kg": 5500.0,
+      "container_count": 24,
+      "container_type": "30B Cylinder",
+      "status": "in_transit",
+      "priority": "high",
+      "departure_date": "2026-06-12T05:30:00Z",
+      "estimated_arrival": "2026-06-19T10:00:00Z",
+      "actual_arrival": null,
+      "carrier": "Tri-State Motor Transit",
+      "tracking_number": "TSMT-2026-12009",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-06-11T15:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-018",
+          "description": "LEU Oxide in 30B Cylinder",
+          "quantity_kg": 230.0,
+          "enrichment_percent": 4.5,
+          "serial_number": "CYL-30B-20260612-001"
+        },
+        {
+          "item_id": "ITEM-019",
+          "description": "LEU Oxide in 30B Cylinder",
+          "quantity_kg": 230.0,
+          "enrichment_percent": 4.5,
+          "serial_number": "CYL-30B-20260612-002"
+        }
+      ],
+      "notes": "Part of scheduled reactor reload. Convoy with two escort vehicles."
+    },
+    {
+      "id": "SHP-010",
+      "origin_facility_id": "FAC-003",
+      "destination_facility_id": "FAC-002",
+      "material_type": "UF6",
+      "material_description": "Uranium Hexafluoride — Enriched Product",
+      "quantity_kg": 3200.0,
+      "container_count": 8,
+      "container_type": "30B Cylinder",
+      "status": "delivered",
+      "priority": "standard",
+      "departure_date": "2026-01-20T09:00:00Z",
+      "estimated_arrival": "2026-01-26T17:00:00Z",
+      "actual_arrival": "2026-01-26T15:10:00Z",
+      "carrier": "Nuclear Transport Solutions",
+      "tracking_number": "NTS-2026-01455",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-01-19T13:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-020",
+          "description": "Enriched UF6 in 30B Cylinder",
+          "quantity_kg": 400.0,
+          "enrichment_percent": 4.95,
+          "serial_number": "CYL-30B-20260120-001"
+        }
+      ],
+      "notes": "Product delivery per enrichment contract EC-2025-0088. Customer acceptance inspection completed on site."
+    },
+    {
+      "id": "SHP-011",
+      "origin_facility_id": "FAC-004",
+      "destination_facility_id": "FAC-003",
+      "material_type": "MOX",
+      "material_description": "Mixed Oxide — Scrap Return for Reprocessing",
+      "quantity_kg": 350.0,
+      "container_count": 2,
+      "container_type": "RH-TRU 72-B Cask",
+      "status": "delayed",
+      "priority": "standard",
+      "departure_date": "2026-05-20T06:00:00Z",
+      "estimated_arrival": "2026-05-28T14:00:00Z",
+      "actual_arrival": null,
+      "carrier": "NAC International",
+      "tracking_number": "NAC-2026-04187",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": true,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-05-19T10:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-021",
+          "description": "MOX Fabrication Scrap",
+          "quantity_kg": 175.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-SCR-20260520-001"
+        },
+        {
+          "item_id": "ITEM-022",
+          "description": "MOX Fabrication Scrap",
+          "quantity_kg": 175.0,
+          "enrichment_percent": null,
+          "serial_number": "MOX-SCR-20260520-002"
+        }
+      ],
+      "notes": "Delayed at intermediate staging facility due to weather. Revised ETA pending."
+    },
+    {
+      "id": "SHP-012",
+      "origin_facility_id": "FAC-005",
+      "destination_facility_id": "FAC-007",
+      "material_type": "DU",
+      "material_description": "Depleted Uranium Shielding Components",
+      "quantity_kg": 6000.0,
+      "container_count": 15,
+      "container_type": "IP-2 Drum",
+      "status": "delivered",
+      "priority": "low",
+      "departure_date": "2026-03-10T08:00:00Z",
+      "estimated_arrival": "2026-03-14T12:00:00Z",
+      "actual_arrival": "2026-03-14T10:30:00Z",
+      "carrier": "Tri-State Motor Transit",
+      "tracking_number": "TSMT-2026-06781",
+      "compliance": {
+        "nrc_license_valid": true,
+        "dot_hazmat_certified": true,
+        "iaea_safeguards_reported": false,
+        "security_plan_approved": true,
+        "last_inspection_date": "2026-03-09T14:00:00Z"
+      },
+      "manifest": [
+        {
+          "item_id": "ITEM-023",
+          "description": "DU Shielding Block",
+          "quantity_kg": 400.0,
+          "enrichment_percent": 0.2,
+          "serial_number": "DU-SHD-20260310-001"
+        }
+      ],
+      "notes": "Shielding components for new hot cell construction. Non-fissile, standard transport."
+    }
+  ],
+  "facilities": [
+    {
+      "id": "FAC-001",
+      "name": "Oak Ridge National Laboratory",
+      "type": "national_laboratory",
+      "city": "Oak Ridge",
+      "state": "TN",
+      "coordinates": { "lat": 35.9311, "lng": -84.3100 },
+      "nrc_license_number": "SNM-2019",
+      "operational_status": "active",
+      "capabilities": ["enrichment", "research", "storage", "processing"],
+      "security_level": "high",
+      "contact": {
+        "name": "Dr. Sarah Mitchell",
+        "role": "Shipping & Receiving Manager",
+        "email": "s.mitchell@ornl.gov",
+        "phone": "+1-865-555-0142"
+      },
+      "max_storage_capacity_kg": 50000.0,
+      "current_inventory_kg": 32150.0
+    },
+    {
+      "id": "FAC-002",
+      "name": "Westinghouse Columbia Fuel Fabrication Facility",
+      "type": "fuel_fabrication",
+      "city": "Hopkins",
+      "state": "SC",
+      "coordinates": { "lat": 33.8968, "lng": -80.8752 },
+      "nrc_license_number": "SNM-1107",
+      "operational_status": "active",
+      "capabilities": ["fuel_fabrication", "storage"],
+      "security_level": "high",
+      "contact": {
+        "name": "James Kowalski",
+        "role": "Plant Manager",
+        "email": "j.kowalski@westinghouse.com",
+        "phone": "+1-803-555-0198"
+      },
+      "max_storage_capacity_kg": 25000.0,
+      "current_inventory_kg": 18400.0
+    },
+    {
+      "id": "FAC-003",
+      "name": "URENCO USA Enrichment Plant",
+      "type": "enrichment",
+      "city": "Eunice",
+      "state": "NM",
+      "coordinates": { "lat": 32.4487, "lng": -103.1597 },
+      "nrc_license_number": "SNM-2010",
+      "operational_status": "active",
+      "capabilities": ["enrichment", "storage"],
+      "security_level": "high",
+      "contact": {
+        "name": "Maria Gonzalez",
+        "role": "Director of Operations",
+        "email": "m.gonzalez@urenco.com",
+        "phone": "+1-575-555-0167"
+      },
+      "max_storage_capacity_kg": 40000.0,
+      "current_inventory_kg": 27800.0
+    },
+    {
+      "id": "FAC-004",
+      "name": "Savannah River Site — MOX Facility",
+      "type": "processing",
+      "city": "Aiken",
+      "state": "SC",
+      "coordinates": { "lat": 33.3464, "lng": -81.7404 },
+      "nrc_license_number": "SNM-2012",
+      "operational_status": "limited_operations",
+      "capabilities": ["mox_fabrication", "storage", "processing"],
+      "security_level": "maximum",
+      "contact": {
+        "name": "Col. David Park (Ret.)",
+        "role": "Site Security Director",
+        "email": "d.park@srs.gov",
+        "phone": "+1-803-555-0211"
+      },
+      "max_storage_capacity_kg": 30000.0,
+      "current_inventory_kg": 12500.0
+    },
+    {
+      "id": "FAC-005",
+      "name": "Honeywell Metropolis Works",
+      "type": "conversion",
+      "city": "Metropolis",
+      "state": "IL",
+      "coordinates": { "lat": 37.1512, "lng": -88.7320 },
+      "nrc_license_number": "SUB-526",
+      "operational_status": "active",
+      "capabilities": ["conversion", "storage"],
+      "security_level": "standard",
+      "contact": {
+        "name": "Rachel Torres",
+        "role": "Logistics Coordinator",
+        "email": "r.torres@honeywell.com",
+        "phone": "+1-618-555-0134"
+      },
+      "max_storage_capacity_kg": 35000.0,
+      "current_inventory_kg": 22000.0
+    },
+    {
+      "id": "FAC-006",
+      "name": "Global Nuclear Fuel — Wilmington",
+      "type": "fuel_fabrication",
+      "city": "Wilmington",
+      "state": "NC",
+      "coordinates": { "lat": 34.2257, "lng": -77.9447 },
+      "nrc_license_number": "SNM-1097",
+      "operational_status": "active",
+      "capabilities": ["fuel_fabrication", "storage", "assembly"],
+      "security_level": "high",
+      "contact": {
+        "name": "Kevin O'Brien",
+        "role": "Receiving Supervisor",
+        "email": "k.obrien@gnf.com",
+        "phone": "+1-910-555-0177"
+      },
+      "max_storage_capacity_kg": 20000.0,
+      "current_inventory_kg": 14200.0
+    },
+    {
+      "id": "FAC-007",
+      "name": "Idaho National Laboratory — MFC",
+      "type": "national_laboratory",
+      "city": "Idaho Falls",
+      "state": "ID",
+      "coordinates": { "lat": 43.5171, "lng": -112.0340 },
+      "nrc_license_number": "SNM-2608",
+      "operational_status": "active",
+      "capabilities": ["research", "advanced_reactor_testing", "storage", "processing"],
+      "security_level": "maximum",
+      "contact": {
+        "name": "Dr. Amy Chen",
+        "role": "Nuclear Materials Manager",
+        "email": "a.chen@inl.gov",
+        "phone": "+1-208-555-0156"
+      },
+      "max_storage_capacity_kg": 15000.0,
+      "current_inventory_kg": 8900.0
+    }
+  ],
+  "materials": [
+    {
+      "id": "MAT-001",
+      "code": "UF6",
+      "name": "Uranium Hexafluoride",
+      "category": "source_material",
+      "hazard_class": "7",
+      "un_number": "UN2978",
+      "requires_criticality_safety": true,
+      "max_enrichment_percent": 5.0,
+      "storage_requirements": ["temperature_controlled", "ventilated", "seismic_rated"],
+      "regulatory_notes": "Subject to 10 CFR 40 and IAEA safeguards. Criticality safety analysis required for enrichments above 1%."
+    },
+    {
+      "id": "MAT-002",
+      "code": "LEU",
+      "name": "Low-Enriched Uranium",
+      "category": "special_nuclear_material",
+      "hazard_class": "7",
+      "un_number": "UN2918",
+      "requires_criticality_safety": true,
+      "max_enrichment_percent": 5.0,
+      "storage_requirements": ["criticality_safe_geometry", "seismic_rated", "fire_resistant"],
+      "regulatory_notes": "Subject to 10 CFR 70. Various forms (oxide, pellets, assemblies). Enrichment limit for LEU is below 20%."
+    },
+    {
+      "id": "MAT-003",
+      "code": "HALEU",
+      "name": "High-Assay Low-Enriched Uranium",
+      "category": "special_nuclear_material",
+      "hazard_class": "7",
+      "un_number": "UN2918",
+      "requires_criticality_safety": true,
+      "max_enrichment_percent": 19.75,
+      "storage_requirements": ["criticality_safe_geometry", "seismic_rated", "fire_resistant", "armed_security"],
+      "regulatory_notes": "Enrichment between 5% and 20%. Enhanced security required per NRC guidance. Critical for advanced reactor designs."
+    },
+    {
+      "id": "MAT-004",
+      "code": "MOX",
+      "name": "Mixed Oxide Fuel",
+      "category": "special_nuclear_material",
+      "hazard_class": "7",
+      "un_number": "UN3324",
+      "requires_criticality_safety": true,
+      "max_enrichment_percent": null,
+      "storage_requirements": ["criticality_safe_geometry", "seismic_rated", "fire_resistant", "armed_security"],
+      "regulatory_notes": "Contains plutonium. Subject to 10 CFR 70 and enhanced physical protection requirements per 10 CFR 73."
+    },
+    {
+      "id": "MAT-005",
+      "code": "DU",
+      "name": "Depleted Uranium",
+      "category": "source_material",
+      "hazard_class": "7",
+      "un_number": "UN2910",
+      "requires_criticality_safety": false,
+      "max_enrichment_percent": 0.3,
+      "storage_requirements": ["ventilated"],
+      "regulatory_notes": "Subject to 10 CFR 40. Lower regulatory burden. Not subject to IAEA safeguards. Used for shielding and counterweights."
+    }
+  ],
+  "compliance_events": [
+    {
+      "id": "CMP-001",
+      "type": "inspection",
+      "facility_id": "FAC-001",
+      "shipment_id": null,
+      "date": "2025-10-01T09:00:00Z",
+      "inspector": "NRC Region II",
+      "result": "pass",
+      "severity": "none",
+      "findings": "Routine inspection. All safety protocols observed. Documentation complete and current.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-002",
+      "type": "audit",
+      "facility_id": "FAC-002",
+      "shipment_id": null,
+      "date": "2025-12-15T10:00:00Z",
+      "inspector": "Internal QA Team",
+      "result": "pass_with_observations",
+      "severity": "low",
+      "findings": "Material tracking database had 3 entries with incomplete lot numbers. No safety impact. Records corrected during audit.",
+      "corrective_action_required": true,
+      "follow_up_date": "2026-01-15T10:00:00Z"
+    },
+    {
+      "id": "CMP-003",
+      "type": "incident",
+      "facility_id": "FAC-004",
+      "shipment_id": null,
+      "date": "2026-02-10T14:30:00Z",
+      "inspector": "Site Safety Officer",
+      "result": "fail",
+      "severity": "medium",
+      "findings": "Contamination detected in loading bay during routine swipe test. Area isolated and decontaminated. Root cause: degraded gasket on storage container. No personnel exposure above limits.",
+      "corrective_action_required": true,
+      "follow_up_date": "2026-03-10T09:00:00Z"
+    },
+    {
+      "id": "CMP-004",
+      "type": "inspection",
+      "facility_id": "FAC-003",
+      "shipment_id": "SHP-010",
+      "date": "2026-01-19T13:00:00Z",
+      "inspector": "NRC Region IV",
+      "result": "pass",
+      "severity": "none",
+      "findings": "Pre-shipment inspection for SHP-010. All cylinders within spec. Transport documentation reviewed and approved.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-005",
+      "type": "audit",
+      "facility_id": "FAC-005",
+      "shipment_id": null,
+      "date": "2026-04-20T08:00:00Z",
+      "inspector": "IAEA Safeguards Division",
+      "result": "pass",
+      "severity": "none",
+      "findings": "Annual safeguards inspection. Book inventory matches physical inventory within acceptable tolerances. Surveillance equipment operational.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-006",
+      "type": "incident",
+      "facility_id": "FAC-006",
+      "shipment_id": "SHP-004",
+      "date": "2025-09-05T17:00:00Z",
+      "inspector": "Receiving Inspector",
+      "result": "pass_with_observations",
+      "severity": "low",
+      "findings": "One drum in SHP-004 had a minor dent on arrival. Radiological survey confirmed no compromise of containment. Drum accepted with documented deviation.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-007",
+      "type": "inspection",
+      "facility_id": "FAC-007",
+      "shipment_id": null,
+      "date": "2026-05-01T09:00:00Z",
+      "inspector": "DOE Office of Enterprise Assessments",
+      "result": "pass_with_observations",
+      "severity": "low",
+      "findings": "Security assessment. Physical protection systems functional. Recommendation to upgrade perimeter camera resolution at south gate. Not a compliance finding.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-008",
+      "type": "audit",
+      "facility_id": "FAC-001",
+      "shipment_id": null,
+      "date": "2026-06-01T10:00:00Z",
+      "inspector": "Internal Compliance Office",
+      "result": "pass",
+      "severity": "none",
+      "findings": "Quarterly material accountability review. All SNM quantities reconciled. Shipper/receiver differences within regulatory limits.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    },
+    {
+      "id": "CMP-009",
+      "type": "incident",
+      "facility_id": "FAC-003",
+      "shipment_id": null,
+      "date": "2026-03-22T11:15:00Z",
+      "inspector": "NRC Region IV",
+      "result": "fail",
+      "severity": "critical",
+      "findings": "Unplanned criticality safety alarm in enrichment cascade hall. Investigation confirmed false alarm due to detector malfunction. However, response time exceeded procedural limit by 4 minutes. Corrective action plan required.",
+      "corrective_action_required": true,
+      "follow_up_date": "2026-04-22T09:00:00Z"
+    },
+    {
+      "id": "CMP-010",
+      "type": "inspection",
+      "facility_id": "FAC-004",
+      "shipment_id": "SHP-002",
+      "date": "2026-06-09T12:00:00Z",
+      "inspector": "NRC Region II",
+      "result": "pass",
+      "severity": "none",
+      "findings": "Pre-shipment inspection for SHP-002 (MOX fuel assemblies). All assemblies meet specifications. Security plan for armed escort approved.",
+      "corrective_action_required": false,
+      "follow_up_date": null
+    }
+  ]
+}
